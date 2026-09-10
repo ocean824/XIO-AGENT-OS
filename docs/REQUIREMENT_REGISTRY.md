@@ -6,6 +6,7 @@
 - `XIO-REQ-PLT-003` Provider/model/connector adapters with honest status.
 - `XIO-REQ-PLT-004` Audit/evidence/observability across consequential operations.
 - `XIO-REQ-PLT-005` Secrets scoped through vault/grants.
+- `XIO-REQ-PLT-006` Capability Bus exposes all authorized XIO functions/connectors uniformly to agents.
 
 ## Brain
 - `XIO-REQ-BRN-001` Hybrid knowledge retrieval with provenance.
@@ -20,6 +21,9 @@
 - `XIO-REQ-SWM-003` Parallel isolated executions with structured artifacts/events.
 - `XIO-REQ-SWM-004` Independent reviewer/adversary roles.
 - `XIO-REQ-SWM-005` Model routing/fallback/evals.
+- `XIO-REQ-SWM-006` Ø can configure default provider/model/fallbacks/instructions per agent role globally and override per workspace/project/Epic/ticket/run.
+- `XIO-REQ-SWM-007` Spawned agents automatically receive role charter, XYRA-stage protocol, context manifest, memory scope, capabilities, approvals, budgets and output/evidence contract.
+- `XIO-REQ-SWM-008` Authorized agents independently invoke XIO capabilities/connections without orchestrator proxying each call.
 
 ## FORGE
 - `XIO-REQ-FRG-001` Native Epic/Spec/Plan/Wave/Ticket hierarchy.
@@ -42,7 +46,11 @@
 - `XIO-REQ-GRW-001` Email/SMS outreach/sequences/analytics.
 - `XIO-REQ-GRW-002` Funnel/site/form/offer/experiment builder.
 - `XIO-REQ-SOC-001` Social/content/publishing/analytics system.
-- `XIO-REQ-ADS-001` Authorized ad planning/management/attribution.
+- `XIO-REQ-ADS-001` Native-first ad planning/creative/publishing/optimization/attribution across provider adapters.
+- `XIO-REQ-ADS-002` Meta and Google Ads are priority native provider adapters; additional networks are pluggable.
+- `XIO-REQ-ADS-003` MadeThis Ads API/MCP is supported as optional accelerator/fallback where useful.
+- `XIO-REQ-ADS-004` Ad autonomy supports Advisory/Draft/Guarded/Autonomous-Bounded modes with spend caps, approvals, stop-loss and kill switch.
+- `XIO-REQ-ADS-005` Ad agents can use BRAIN/CRM/DATA/STUDIO/FUNNELS/INTEL capabilities independently under policy.
 - `XIO-REQ-STD-001` Documents/reports/animated HTML decks/assets.
 - `XIO-REQ-MNY-001` Multi-business finance/reconciliation/scenario intelligence.
 - `XIO-REQ-INT-001` Source-backed personalized industry/project intelligence.
